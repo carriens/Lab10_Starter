@@ -24,7 +24,7 @@
   <main>
     <section id="explore">
       <header>
-        <h2>Speech Synthesizer</h2>
+        <h2 id="font-to-change">Speech Synthesizer</h2>
       </header>
       <img src="assets/images/smiling.png" alt="Smiling face" />
       <textarea name="text-to-speak" id="text-to-speak" rows="10" placeholder="Text to speak here"></textarea>
@@ -56,6 +56,9 @@
       var shouldShow = ldclient.variation('blue-background');
       if(shouldShow) {
         document.body.classList.add("blue");
+
+        var header = document.querySelector("#font-to-change");
+        header.classList.add("changed");
       }
     }
   

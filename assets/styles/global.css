@@ -14,6 +14,10 @@ body.blue {
   background-color: lightblue;
 }
 
+h2.changed{
+  font-family: 'Apple Chancery', 'Arial Narrow', Arial, sans-serif;
+}
+
 body.blue>main {
   background-color: white;
   border-radius: 5px;
